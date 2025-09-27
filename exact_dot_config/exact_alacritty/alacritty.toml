@@ -1,0 +1,21 @@
+# general.import = [ "~/.config/omarchy/current/theme/alacritty.toml" ]
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+normal = { family = "Monaspace Krypton NF", style = "Regular" }
+bold = { family = "Monaspace Krypton NF", style = "Bold" }
+italic = { family = "Monaspace Krypton NF", style = "Italic" }
+size = 12
+
+[window]
+padding.x = 14
+padding.y = 14
+decorations = "None"
+opacity = 0.98
+
+[keyboard]
+bindings = [
+{ key = "F11", action = "ToggleFullscreen" }
+]
